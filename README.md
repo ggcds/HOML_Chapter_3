@@ -1,39 +1,36 @@
-# 🤖 Hands-On Machine Learning — Capítulo 3: Classificação
+# 📘 Projeto: Hands-On Machine Learning - Capítulo 3
 
-Este repositório contém os experimentos e códigos desenvolvidos a partir do **Capítulo 3 - Classificação** do livro *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* (Aurélien Géron).
-
-O foco principal deste capítulo é introduzir os conceitos de **classificação supervisionada**, com ênfase em algoritmos como **Stochastic Gradient Descent (SGD)** e **Random Forests**, além de métricas importantes como **precisão, revocação, acurácia e F1-score**.
+Repositório com a implementação prática do **Capítulo 3** do livro *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* (Aurélien Géron).
 
 ---
 
-## 📚 Conteúdos abordados
+## 📌 Objetivo
 
-- 📌 Classificação Binária com o dataset MNIST
-- 📌 Implementação de classificadores usando `SGDClassifier`
-- 📌 Avaliação de desempenho com:
-  - Confusion Matrix
-  - Precision, Recall e F1-score
-  - Curvas ROC e AUC
-- 📌 Classificação Multiclasse (One-vs-One e One-vs-Rest)
-- 📌 Uso do `RandomForestClassifier` com `GridSearchCV` para ajuste de hiperparâmetros
-- 📌 Comparação entre classificadores e tuning de modelos
-- 📌 Pré-processamento com `train_test_split` e `StandardScaler`
+Este projeto apresenta os conceitos fundamentais de **classificação supervisionada**, com foco em classificadores binários e multiclasse, além das principais métricas de avaliação de desempenho e técnicas de ajuste de modelos.
 
 ---
 
-## 🧪 Tecnologias utilizadas
+## 🔍 Conteúdos abordados
 
-- Python 3.8+
-- scikit-learn
-- matplotlib
-- numpy
-- pandas
+- 🔢 Classificação binária com o dataset MNIST  
+- 📊 Avaliação de desempenho com:
+  - Matriz de confusão
+  - Acurácia
+  - Precisão
+  - Recall
+  - F1-score
+- 📈 Curva ROC e AUC
+- 🧠 Estratégias para classificação multiclasse:
+  - One-vs-Rest (OvR)
+  - One-vs-One (OvO)
+- 🌲 Treinamento com Random Forest
+- 🎛️ Ajuste de hiperparâmetros com GridSearchCV
+- 🧪 Validação cruzada (Cross-Validation)
+- ⚙️ Pré-processamento com StandardScaler e divisão dos dados com train_test_split
 
 ---
 
-## 🚀 Como executar
+## 📚 Referência
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repo.git
-   cd nome-do-repo
+**Livro**: *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* — Aurélien Géron  
+**Capítulo**: 3 - *Classificação*
